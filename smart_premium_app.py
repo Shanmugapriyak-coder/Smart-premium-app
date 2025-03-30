@@ -2,7 +2,7 @@ import streamlit as st
 import pandas as pd
 import joblib
 
-model = joblib.load(r"C:\Users\MY Laptop\Desktop\guvi_class\smart premium\ml_model.pkl")
+model = joblib.load("ml_model.pkl")
 st.title("Smart Premium ")
 form = st.form(key='registration_form')
 Age = form.number_input("Age", min_value=0, max_value=100, step=1)
