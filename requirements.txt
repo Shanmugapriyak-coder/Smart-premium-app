@@ -1,4 +1,4 @@
 
-joblib==2.2.3
+joblib
 pandas==2.2.3
 streamlit==1.42.2
